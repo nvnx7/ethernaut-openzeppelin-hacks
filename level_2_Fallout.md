@@ -59,18 +59,17 @@ The `player` has to claim ownership of the contract.
 
 Inspecting all the methods, it can be seen there isn't any method that switches the ownership of the contract. Only ownership logic is inside the constructor. But, constructors are called only once at the deployment time!
 
-How? Something about constructor declaration looks unusual -- it is defined with same name as the contract i.e. `Fallout`. Don't we use `constructor` keyword to declare constructors?
+How? Something about constructor declaration looks unusual -- it "seems" to be defined with same name as the contract i.e. `Fallout` (it is NOT actually). Don't we use `constructor` keyword to declare constructors?
 
-Actually, older versions of Solidity had this kind of constructor declaration. Check the version of this contract - `v0.6.0`. If we go through the [docs](https://docs.soliditylang.org/en/v0.8.10/050-breaking-changes.html#constructors) to find out when `constructor` was favored against contract name as constructor, we find that `v0.5.0` mandated that - _"Constructors must now be defined using the constructor keyword."_
+First of all - intended constructor declaration has typo, `Fal1out` instead of `Fallout`. So it is just treated as a normal method not a constructor. Hence we simply call it & claim ownership.
 
-This contract defines `v0.6.0` as compiler version but mistakenly uses old, long deprecated & an invalid constructor declaration!!
+Secondly, even if it wasn't a typo, that is - constructor was declared as `Fallout`, it won't even compile! 
+Older versions of Solidity had this kind of constructor declaration. If you go through the [docs](https://docs.soliditylang.org/en/v0.8.10/050-breaking-changes.html#constructors) you'll find that `constructor` keyword was favored against contract name as constructor. It was mandated even in `v0.5.0` - _"Constructors must now be defined using the constructor keyword"_. And target contract uses `v0.6.0`.
 
-That means, it'll be treated as a normal method!
-
-Aha! Gotcha! Let's call it.
+Anyway, silly mistake.
 
 ```javascript
-await contract.Fallout()
+await contract.Fal1out()
 ```
 
 And `player` has taken over as `owner`. Verify by:
