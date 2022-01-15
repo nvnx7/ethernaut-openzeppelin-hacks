@@ -106,4 +106,6 @@ await contract.balanceOf(player).then(v => v.toString())
 A nice thing to note is that it worked because contract's compiler version is `v0.6.0`. This, most probably, **won't work for latest version** (`v0.8.0` as of writing) because underflow/overflow causes failing assertion by default in latest version.
 
 
+_Learned something awesome? Consider starring the [github repo](https://github.com/theNvN/ethernaut-openzeppelin-hacks)_ 😄
 
+_and following me on twitter [here](https://twitter.com/heyNvN)_ 🙏

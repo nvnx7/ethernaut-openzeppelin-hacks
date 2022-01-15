@@ -80,3 +80,7 @@ await contract.owner() === player
 ```
 
 Submit instance. Done.
+
+_Learned something awesome? Consider starring the [github repo](https://github.com/theNvN/ethernaut-openzeppelin-hacks)_ 😄
+
+_and following me on twitter [here](https://twitter.com/heyNvN)_ 🙏

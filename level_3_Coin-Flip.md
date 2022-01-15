@@ -126,3 +126,7 @@ if (lastHash == blockValue) {
 The invocation will revert if block number was same as in previous invocation. Since `lastHash` / `blockValue` is derived from `block.number`.
 
 Game rigged successfully.
+
+_Learned something awesome? Consider starring the [github repo](https://github.com/theNvN/ethernaut-openzeppelin-hacks)_ 😄
+
+_and following me on twitter [here](https://twitter.com/heyNvN)_ 🙏

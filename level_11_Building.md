@@ -81,3 +81,7 @@ await contract.top()
 ```
 
 Started from the bottom now we here (`top`) !
+
+_Learned something awesome? Consider starring the [github repo](https://github.com/theNvN/ethernaut-openzeppelin-hacks)_ 😄
+
+_and following me on twitter [here](https://twitter.com/heyNvN)_ 🙏

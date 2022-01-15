@@ -92,3 +92,7 @@ Level cleared.
 Bonus thing to note here is that in `ForeverKing`'s `claimKingship`, `call` is used specifically. `transfer` or `send` will fail because of limited 2300 gas stipend. `receive` of `King` would require more than 2300 gas to execute successfully.
 
 Of course, there are probably other ways too to prevent a successful `receive` execution.
+
+_Learned something awesome? Consider starring the [github repo](https://github.com/theNvN/ethernaut-openzeppelin-hacks)_ 😄
+
+_and following me on twitter [here](https://twitter.com/heyNvN)_ 🙏

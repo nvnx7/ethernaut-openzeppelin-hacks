@@ -51,3 +51,7 @@ contract IntermediateContract {
 `player` will call `IntermediateContract` contract's `changeOwner`, which in turn will call `Telephone`'s `changeOwner` with `msg.sender` (which is `player`) as param. In that case `tx.origin` is `player` and `msg.sender` is `IntermediateContract`'s address. And since now `tx.origin` != `msg.sender`, `player` has claimed the ownership.
 
 Done.
+
+_Learned something awesome? Consider starring the [github repo](https://github.com/theNvN/ethernaut-openzeppelin-hacks)_ 😄
+
+_and following me on twitter [here](https://twitter.com/heyNvN)_ 🙏
