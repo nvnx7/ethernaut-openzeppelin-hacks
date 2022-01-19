@@ -98,3 +98,8 @@ Call the `transferFrom` method with params - `player` address as sender, `spende
 And that's it.
 
 Level cleared!
+
+
+_Learned something awesome? Consider starring the [github repo](https://github.com/theNvN/ethernaut-openzeppelin-hacks)_ 😄
+
+_and following me on twitter [here](https://twitter.com/heyNvN)_ 🙏

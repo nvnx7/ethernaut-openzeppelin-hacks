@@ -122,3 +122,8 @@ contract GatePassTwo {
 Now deploy `GatePassTwo` with address of `GatekeeperTwo`, which will result in execution of malicious `constructor` code. And that will eventually register `player` as `entrant`.
 
 Passed!
+
+
+_Learned something awesome? Consider starring the [github repo](https://github.com/theNvN/ethernaut-openzeppelin-hacks)_ 😄
+
+_and following me on twitter [here](https://twitter.com/heyNvN)_ 🙏
