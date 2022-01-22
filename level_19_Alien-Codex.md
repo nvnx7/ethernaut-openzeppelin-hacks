@@ -1,6 +1,6 @@
-# Level 18: Magic Number
+# Level 19: Alien Codex
 
-This is the level 18 of OpenZeppelin [Ethernaut](https://ethernaut.openzeppelin.com/) web3/solidity based game.
+This is the level 19 of OpenZeppelin [Ethernaut](https://ethernaut.openzeppelin.com/) web3/solidity based game.
 
 ## Pre-requisites
 
