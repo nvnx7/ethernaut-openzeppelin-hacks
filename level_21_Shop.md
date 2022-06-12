@@ -90,4 +90,5 @@ Free buy!
 
 _Learned something awesome? Consider starring the [github repo](https://github.com/theNvN/ethernaut-openzeppelin-hacks)_ 😄
 
-_and following me on twitter [here](https://twitter.com/heyNvN)_ 🙏
+_and following me on twitter [here](https://twitter.com/the_nvn)_ 🙏
+
