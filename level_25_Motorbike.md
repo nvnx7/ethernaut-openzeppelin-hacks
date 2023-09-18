@@ -157,7 +157,7 @@ Alright, invoking `initialize` method must've now set `player` as `upgrader`. Ve
 ```javascript
 upgraderData = web3.eth.abi.encodeFunctionSignature("upgrader()")
 
-await web3.eth.call({from: player, to: implAddr, data: upgraderSig}).then(v => '0x' + v.slice(-40).toLowerCase()) === player.toLowerCase()
+await web3.eth.call({from: player, to: implAddr, data: upgraderData}).then(v => '0x' + v.slice(-40).toLowerCase()) === player.toLowerCase()
 
 // Output: true
 ```
